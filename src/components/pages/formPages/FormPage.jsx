@@ -77,7 +77,7 @@ ${formData.message}`
                         </div>
 
                         <div>
-                            <label className="block text-white mb-2">Phone/Mobile</label>
+                            <label className="block text-white mb-2">Phone/Mobile:</label>
                             <input
                                 type="text"
                                 name="phone"
@@ -91,11 +91,11 @@ ${formData.message}`
                     {/* RIGHT SIDE */}
                     <div className="flex flex-col gap-6">
                         <div>
-                            <label className="block text-white mb-2">Message</label>
+                            <label className="block text-white mb-2">Message:</label>
                             <textarea
                                 name="message"
                                 onChange={handleChange}
-                                placeholder="message"
+                                placeholder="discription"
                                 rows="6"
                                 className="w-full text-black bg-white px-4 py-3 rounded-md outline-none resize-none"
                                 required
@@ -106,7 +106,7 @@ ${formData.message}`
                             type="submit"
                             className="bg-white cursor-pointer text-xl sm:text-2xl md:text-3xl text-gray-800 py-3 rounded-md font-medium hover:bg-gray-200 transition"
                         >
-                            Submit by e-mail
+                            Submit
                         </button>
                     </div>
 

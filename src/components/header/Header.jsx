@@ -48,11 +48,11 @@ const Header = () => {
                 </div>
 
                 {/* Navigation */}
-                <nav className="flex flex-col space-x-15 md:flex-row items-center gap-4 md:gap-6 text-base md:text-lg font-medium">
-                    <Link to="/" className="hover:text-gray-600 text-4xl">HOME</Link>
-                    <Link to="/services" className="hover:text-gray-600 text-4xl">SERVICES</Link>
-                    <Link to="/about" className="hover:text-gray-600 text-4xl">ABOUT</Link>
-                    <Link to="/contact" className="hover:text-gray-600 text-4xl">CONTACT</Link>
+                <nav className=" bg-amber-200  flex flex-col items-center justify-center space-x-15 md:flex-row items-center gap-4 md:gap-6 text-base md:text-lg font-medium ">
+                    <Link to="/" className="hover:text-gray-600 text-4xl cursor-pointer">HOME</Link>
+                    <Link to="/services" className="hover:text-gray-600 text-4xl cursor-pointer">SERVICES</Link>
+                    <Link to="/about" className="hover:text-gray-600 text-4xl cursor-pointer">ABOUT</Link>
+                    <Link to="/contact" className="hover:text-gray-600 text-4xl cursor-pointer">CONTACT</Link>
                 </nav>
 
                 {/* Button */}

@@ -8,12 +8,30 @@ const Header = () => {
         <div className="w-full">
 
             {/* Top Email Bar */}
-            <div className="bg-black text-white px-4 md:px-10 py-2 text-sm md:text-base">
+            <div className=" text-white px-4 flex justify-center space-x-5 md:px-10 py-2 text-sm md:text-base">
                 <a
                     href="mailto:yaadproduction.np@gmail.com"
                     className="hover:underline"
                 >
                     yaadproduction.np@gmail.com
+                </a>
+
+                <a href="https://www.youtube.com/@YaadProduction" target="_blank" rel="noopener noreferrer">
+                    <img className='w-8'
+                        src="https://cdn-icons-png.flaticon.com/128/1384/1384060.png"
+                        alt="YouTube"
+                    />
+                </a>
+                <a
+                    href="https://www.facebook.com/profile.php?id=61576464863080"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <img
+                        className="w-8"
+                        src="https://cdn-icons-png.flaticon.com/128/3955/3955011.png"
+                        alt="Facebook"
+                    />
                 </a>
             </div>
 
@@ -44,7 +62,7 @@ const Header = () => {
 
             </div>
 
-        </div>
+        </div >
 
     )
 }

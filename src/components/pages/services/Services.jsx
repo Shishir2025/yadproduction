@@ -5,7 +5,7 @@ const Services = () => {
 
 
     return (
-        <div className='bg-white flex flex-col pb-15'>
+        <div className='bg-white flex flex-col py-15'>
             <h1 className='text-[#333333] text-3xl sm:text-4xl lg:text-5xl font-bold text-center pt-10'>
                 SERVICES
             </h1>

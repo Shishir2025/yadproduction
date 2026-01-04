@@ -60,11 +60,4 @@ export const teamsData = [
     image:
       "https://scontent.fktm7-1.fna.fbcdn.net/v/t39.30808-6/513984119_23929314690064660_7978090845447012694_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=a5f93a&_nc_ohc=7gB_VKJHUUYQ7kNvwFjm6RG&_nc_oc=Adm9qI8Wviqbs7VTXi7dAh4l1VclT1VQyd5YTRjfHGy4UGv7oaw1xJI0_XC_LJYl-83mpVI_FU4jEXj03JkhR4TP&_nc_zt=23&_nc_ht=scontent.fktm7-1.fna&_nc_gid=fJ7_jd4ode1Dllxoxzv-ZA&oh=00_Afq9CLAIhJbkWc4KBTR-Pl3w-VfHIpT8cL5PFcVyEMMpoA&oe=696000AA",
   },
-  {
-    id: 9,
-    name: " Amardeep Shresth",
-    role: "Videography & Photography",
-    image:
-      "https://scontent.fktm7-1.fna.fbcdn.net/v/t39.30808-6/513984119_23929314690064660_7978090845447012694_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=a5f93a&_nc_ohc=7gB_VKJHUUYQ7kNvwFjm6RG&_nc_oc=Adm9qI8Wviqbs7VTXi7dAh4l1VclT1VQyd5YTRjfHGy4UGv7oaw1xJI0_XC_LJYl-83mpVI_FU4jEXj03JkhR4TP&_nc_zt=23&_nc_ht=scontent.fktm7-1.fna&_nc_gid=fJ7_jd4ode1Dllxoxzv-ZA&oh=00_Afq9CLAIhJbkWc4KBTR-Pl3w-VfHIpT8cL5PFcVyEMMpoA&oe=696000AA",
-  },
 ];

@@ -14,7 +14,7 @@ const TeamsInfo = () => {
 
 
 
-                <marquee behavior="scroll" direction="left" scrollamount="5">
+                <marquee behavior="alternate" direction="left" scrollamount="5">
                     {data.map((member) => (
                         <div
                             key={member.id}

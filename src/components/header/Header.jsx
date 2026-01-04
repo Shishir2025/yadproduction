@@ -5,41 +5,47 @@ import logo from '../../assets/imgs/logo.png'
 
 const Header = () => {
     return (
-        <div>
+        <div className="w-full">
 
-            <div className='pl-10'> <a href=""> yaadproduction.np@gmail.com </a> </div>
-
-
-
-            <div className='flex justify-evenly h-10 bg-white text-2xl text-black items-center'>
-                <img className='w-15' src={logo} alt="" />
-
-
-
-                <nav className='flex  space-x-5'>
-
-                    <Link  >HOME</Link>
-
-                    <Link  >SERVICES</Link>
-
-                    <Link  >ABOUT</Link>
-
-                    <Link  >HOME</Link>
-
-
-
-
-
-                </nav>
-
-
-                <button>Register</button>
+            {/* Top Email Bar */}
+            <div className="bg-black text-white px-4 md:px-10 py-2 text-sm md:text-base">
+                <a
+                    href="mailto:yaadproduction.np@gmail.com"
+                    className="hover:underline"
+                >
+                    yaadproduction.np@gmail.com
+                </a>
             </div>
 
+            {/* Main Navbar */}
+            <div className="flex flex-col md:flex-row items-center justify-between gap-4 px-4 md:px-10 py-4 bg-white text-black">
 
+                {/* Logo */}
+                <div>
+                    <img
+                        src={logo}
+                        alt="logo"
+                        className="w-24 md:w-28"
+                    />
+                </div>
 
+                {/* Navigation */}
+                <nav className="flex flex-col space-x-15 md:flex-row items-center gap-4 md:gap-6 text-base md:text-lg font-medium">
+                    <Link to="/" className="hover:text-gray-600 text-4xl">HOME</Link>
+                    <Link to="/services" className="hover:text-gray-600 text-4xl">SERVICES</Link>
+                    <Link to="/about" className="hover:text-gray-600 text-4xl">ABOUT</Link>
+                    <Link to="/contact" className="hover:text-gray-600 text-4xl">CONTACT</Link>
+                </nav>
+
+                {/* Button */}
+                <button className="px-6 py-2 border border-black rounded-full hover:bg-black hover:text-white transition">
+                    Register
+                </button>
+
+            </div>
 
         </div>
+
     )
 }
 

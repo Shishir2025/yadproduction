@@ -48,11 +48,36 @@ const Header = () => {
                 </div>
 
                 {/* Navigation */}
-                <nav className=" bg-amber-200  flex flex-col items-center justify-center space-x-15 md:flex-row items-center gap-4 md:gap-6 text-base md:text-lg font-medium ">
-                    <Link to="/" className="hover:text-gray-600 text-4xl cursor-pointer">HOME</Link>
-                    <Link to="/services" className="hover:text-gray-600 text-4xl cursor-pointer">SERVICES</Link>
-                    <Link to="/about" className="hover:text-gray-600 text-4xl cursor-pointer">ABOUT</Link>
-                    <Link to="/contact" className="hover:text-gray-600 text-4xl cursor-pointer">CONTACT</Link>
+                <nav className=" flex flex-col md:flex-row items-center justify-center gap-4 md:gap-8 py-4 text-base md:text-lg font-medium">
+
+                    <Link
+                        to="/"
+                        className="hover:text-gray-600 cursor-pointer text-xl md:text-2xl"
+                    >
+                        HOME
+                    </Link>
+
+                    <Link
+                        to="/services"
+                        className="hover:text-gray-600 cursor-pointer text-xl md:text-2xl"
+                    >
+                        SERVICES
+                    </Link>
+
+                    <Link
+                        to="/about"
+                        className="hover:text-gray-600 cursor-pointer text-xl md:text-2xl"
+                    >
+                        ABOUT
+                    </Link>
+
+                    <Link
+                        to="/contact"
+                        className="hover:text-gray-600 cursor-pointer text-xl md:text-2xl"
+                    >
+                        CONTACT
+                    </Link>
+
                 </nav>
 
                 {/* Button */}

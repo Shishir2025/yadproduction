@@ -95,7 +95,7 @@ ${formData.message}`
                             <textarea
                                 name="message"
                                 onChange={handleChange}
-                                placeholder="text here"
+                                placeholder="Your Vision & Tast Details"
                                 rows="6"
                                 className="w-full text-black bg-white px-4 py-3 rounded-md outline-none resize-none"
                                 required

@@ -26,7 +26,7 @@ const Footer = () => {
             </div>
 
             <p className='text-center text-sm sm:text-base pb-4'>
-                ©2025 YadProduction. All Rights Reserved.
+                ©2026 YadProduction. All Rights Reserved.
             </p>
 
         </div>

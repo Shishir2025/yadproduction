@@ -33,7 +33,7 @@ export const teamsData = [
   {
     id: 5,
     name: "Raghu Shresth",
-    role: "Marketing Head & Business Developer",
+    role: "Marketing & Business Developer",
     image:
       "https://scontent.fktm7-1.fna.fbcdn.net/v/t51.82787-15/520148481_18411029428129322_2691265936768688617_n.jpg?stp=dst-jpegr_tt6&_nc_cat=105&ccb=1-7&_nc_sid=127cfc&_nc_ohc=wfivHqS7CdoQ7kNvwFuk6wQ&_nc_oc=AdmlNZ-TxVrlj66dyUTM7vVrd6dbI1QaNUwMDn-c9wuZGaUzgCI-YZSQnF5w7UlPmN1eMoQ_SeDWYfth6feDYVpE&_nc_zt=23&se=-1&_nc_ht=scontent.fktm7-1.fna&_nc_gid=xAhIM_b0uKGFloUYPJYB9Q&oh=00_AfooZAAL01Bfqw50GXeCfGSU820xOwzLAfh0Qrj0MN2wlg&oe=696045CA",
   },
@@ -45,8 +45,15 @@ export const teamsData = [
     image:
       "https://scontent.fktm7-1.fna.fbcdn.net/v/t39.30808-6/466973924_122123210018424794_6416293133091726023_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=ki3z2LsB-L8Q7kNvwHzgqpl&_nc_oc=Adm3_dcE-42gbn2BYuYAYPSe6Ln3hmWtmgjC9L4Tga1nNYwvZI3BxDFw-YMyt87h-m-3M_7HrQlRUKqOi_8RJA4M&_nc_zt=23&_nc_ht=scontent.fktm7-1.fna&_nc_gid=HFIhQIrV_K1vJayCp1iKKQ&oh=00_AfrzVPGmMlRK_mHJTgvvPFRoHBmevYke1XcmxUoVaetqXQ&oe=69602431",
   },
-  {
+   {
     id: 7,
+    name: "Arbin Adhikari",
+    role: " Graphic Designer & Video Editor",
+    image:
+      "https://scontent.fktm10-1.fna.fbcdn.net/v/t39.30808-6/484404726_1417633246286136_2215016648832408446_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=a5f93a&_nc_ohc=b88ZtkXqFh4Q7kNvwGhfhLj&_nc_oc=AdlPyA-M_-6hy06bRK3hDH3aK7KQ5_lB6esPrB2pq2qfOzLzwqlWQqxfwkJQ5Kttcf0cUZ-zLjwRnek49Z2Wf6be&_nc_zt=23&_nc_ht=scontent.fktm10-1.fna&_nc_gid=x99Q0KvMXczsVqSg04g7uA&oh=00_AfpTaQc-Ku2kD2vIKw05BWE14AtJzRlBeu29sX9Y_7Ho1g&oe=696031D8",
+  },
+  {
+    id: 8,
     name: "DB Magar",
     role: " Cameraman",
     image:
@@ -54,7 +61,7 @@ export const teamsData = [
   },
 
   {
-    id: 8,
+    id: 9,
     name: " Amardeep Shresth",
     role: "Videographer & Photographer",
     image:
